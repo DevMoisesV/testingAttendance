@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Home | Dashboard</title>
+    <script src="activenav.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="menu-icon"><img src="SVGS/list.svg"></div>
+      <div class="nav">
+        <div id="links">
+          <a href="#dashboard" class="active" ><img src="SVGS/house-fill.svg" class="navicons">Dashboard</a>
+          <a href="#Attendance-record" ><img src="SVGS/archive-fill.svg" class="navicons">Attendance Record</a>
+          <a href="#Manage-user" ><img src="SVGS/people-fill.svg" class="navicons">Manage User</a>
+          <a href="#settings" ><img src="SVGS/sliders2.svg" class="navicons">Settings</a>
+        </div>
+        <script src="mobilemenu.js"></script>
+      </div>
+
+
+      
+      <div class="content">
+        <main>
+          <!--Attendance Dashboard-->
+          <section id="dashboard">
+              <h1>Attendance<span class="headercolor">Dashboard</span></h1>
+              <div class="infoContainer">
+                <div class="userCount">
+                  <p>Total Users</p>
+                </div>
+                <div class="userAdmin">
+                    <p>Admin</p>
+                </div>
+              </div>
+          </section> 
+
+          <!--Attendance Record-->
+          <section id="Attendance-record" class="hidden">
+              <h1>Attendance<span class="headercolor">Record</span></h1>
+            
+          </section>
+
+           <!--Manage User-->
+          <section id="Manage-user" class="hidden">
+            <h1>Manage Users</h1>
+            <div class="tableUser">
+              <table>
+                <thead>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Locality</th>
+                    <th>Hall</th>
+                    <th>District</th>
+                    <th>Waiting Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Moises</td>
+                    <td>Veloso</td>
+                    <td>Manila</td>
+                    <td>Hall 1</td>
+                    <td>College</td>
+                    <td> 
+                      <button class="status-btn-accept">Accept</button>
+                      <button class="status-btn-decline">Decline</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Abraham</td>
+                    <td>Veloso</td>
+                    <td>Manila</td>
+                    <td>Hall 1</td>
+                    <td>College</td>
+                    <td>
+                      <button class="status-btn-accept">Accept</button>
+                      <button class="status-btn-decline">Decline</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Darrel</td>
+                    <td>Dome</td>
+                    <td>Manila</td>
+                    <td>Hall 1</td>
+                    <td>College</td>
+                    <td>
+                      <button class="status-btn-accept">Accept</button>
+                      <button class="status-btn-decline">Decline</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Jhonnil</td>
+                    <td>Ymas</td>
+                    <td>Manila</td>
+                    <td>Hall 2</td>
+                    <td>College</td>
+                    <td>
+                      <button class="status-btn-accept">Accept</button>
+                      <button class="status-btn-decline">Decline</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Michael Philip</td>
+                    <td>Chua</td>
+                    <td>Manila</td>
+                    <td>Hall 2</td>
+                    <td>English District</td>
+                    <td>
+                      <button class="status-btn-accept">Accept</button>
+                      <button class="status-btn-decline">Decline</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Matthew Angelo</td>
+                    <td>Chua</td>
+                    <td>Manila</td>
+                    <td>Hall 2</td>
+                    <td>College</td>
+                    <td>
+                      <button class="status-btn-accept">Accept</button>
+                      <button class="status-btn-decline">Decline</button>
+                    </td>
+                  </tr>
+
+
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <!--Settings-->
+          <section id="settings" class="hidden">
+            <h1>Settings</h1>
+          </section>
+
+          
+          <script src="hiddensection.js"></script>
+          <script src="functions.js"></script>
+
+        </main>
+      </div>
+
+    </div>
+    
+
+      
+</body>
+</html>
